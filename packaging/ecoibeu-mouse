@@ -1,0 +1,5 @@
+#!/bin/sh
+set -e
+SELF="$(readlink -f "$0")"
+PREFIX="$(dirname "$(dirname "$SELF")")"
+exec /usr/bin/python3 "$PREFIX/share/ecoibeu-mouse/app.py" "$@"

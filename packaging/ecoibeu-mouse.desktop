@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=ecoibeu mouse
+GenericName=Mouse Button Profiles
+Comment=Perfis de botões laterais para o mouse WKPC-S44 / EVISION
+Exec=ecoibeu-mouse
+Icon=ecoibeu-mouse
+Terminal=false
+Categories=Settings;HardwareSettings;
+Keywords=mouse;profile;perfil;buttons;botões;hidraw;
+StartupNotify=true
+StartupWMClass=ecoibeu-mouse
